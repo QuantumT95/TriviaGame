@@ -1,5 +1,30 @@
-#after-submit {
-	visibility: hidden;
+body {
+	text-align: center;
 }
 
+button {
+	margin-top: 15px;
+	background: #3CAB55;
+	color: #fff;
+	padding: 7px 15px;
+	font-size: 1.1em;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
 
+#after-submit, #display, form {
+	display: none;
+}
+
+#display {
+	font-size: 3em;
+}
+
+#after-submit {
+	margin-bottom: 25px;
+}
+
+form .question {
+	margin-bottom: 5px;
+}

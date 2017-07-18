@@ -6,48 +6,83 @@
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <body>
 
-<h1> Trivia Game! </h1>
+	<h1> Trivia Game! </h1>
+
+	<h2 id="display">00:10</h2>
+
+	<div id="after-submit">
+		<p id="number-correct">You finished!</p>
+	</div>
+
+	<button id="start">Start Trivia</button>
+
+	<form>
+		<div class="question">
+			<p>What sweet food made by bees using nectar from flowers?</p>
+			<label>
+				<input type="radio" name="question1" value="honey">
+				 Honey	
+			</label>
+			<label>
+				<input type="radio" name="question1" value="wax">
+				 Wax
+			</label>
+		</div>
+
+		<div class="question">
+			<p>What color is the sky?</p>
+			<label>
+				<input type="radio" name="question2" value="puke">
+				 Puke Green	
+			</label>
+			<label>
+				<input type="radio" name="question2" value="blue">
+				 Blue
+			</label>
+		</div>
+
+		<div class="question">
+			<p>When did columbus find America?</p>
+			<label>
+				<input type="radio" name="question3" value="1492">
+				 1492
+			</label>
+			<label>
+				<input type="radio" name="question3" value="1482">
+				 1482
+			</label>
+		</div>
+		
+		<div class="question">
+			<p>What is the capital of Texas?</p>
+			<label>
+				<input type="radio" name="question4" value="houston">
+				 Houston
+			</label>
+			<label>
+				<input type="radio" name="question4" value="austin">
+				 Austin
+			</label>
+		</div>
+		
+		<div class="question">
+			<p>How many planets are there in our solar system?</p>
+			<label>
+				<input type="radio" name="question5" value="9">
+				 9
+			</label>
+			<label>
+				<input type="radio" name="question5" value="8">
+				 8
+			</label>
+		</div>
+
+		<button id="submit">Submit</button>
+	</form>
 
 
 
-<div id = "display">00:10</div>
-
-<form id = "quiz" name = "quiz">
-
-<p> What sweet food made by bees using nectar from flowers? </p>
-<input type = "radio" name = "question1" value ="honey"> honey
-
-<input type = "radio"  name = "question1" value ="wrong"> wrong
-
-
-<p> What sweet food made by bees using nectar from flowers? </p>
-<input type = "radio"  name = "question2" value ="honey"> honey
-
-<input type = "radio"  name = "question2" value ="wrong"> wrong
-
-
-<p> What sweet food made by bees using nectar from flowers? </p>
-<input type = "radio" name = "question3" value ="honey"> honey
-
-<input type = "radio" name = "question3" value ="wrong"> wrong
-
-
-<p> What sweet food made by bees using nectar from flowers? </p>
-<input type = "radio" name = "question4" value ="honey"> honey
-
-<input type = "radio" name = "question4" value ="wrong"> wrong
-<br>
-<br>
-
-<input id = "button" type = "button" value = "Finish" onclick = "check();">
-
-</form>
-
-<div id = "after-submit">
-<p id = "number-correct">You finished!</p>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>
